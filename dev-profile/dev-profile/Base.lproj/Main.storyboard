@@ -58,7 +58,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="P3x-cd-YNo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="P3x-cd-YNo" customClass="Cor">
                                 <rect key="frame" x="16" y="120" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="1rx-hm-sNX"/>
@@ -98,6 +98,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M2k-Do-FGP" secondAttribute="trailing" constant="20" symbolic="YES" id="0ll-jz-ZmW"/>
                             <constraint firstItem="Mpq-9E-Irq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1QB-5d-ieK"/>
                             <constraint firstItem="Mpq-9E-Irq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="4qv-bI-eiH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yLn-OJ-mMP" secondAttribute="trailing" constant="8" id="5zI-zq-VpI"/>
@@ -115,6 +116,10 @@
                             <constraint firstItem="P3x-cd-YNo" firstAttribute="top" secondItem="iPV-GM-1zL" secondAttribute="bottom" constant="100" id="xxf-82-zaD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ProfLogo" destination="P3x-cd-YNo" id="FsH-ft-Fdc"/>
+                        <outlet property="profLogo" destination="P3x-cd-YNo" id="UCe-eq-lNZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

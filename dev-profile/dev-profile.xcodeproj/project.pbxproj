@@ -54,6 +54,7 @@
 		67D10B42202C933900F03886 /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				67D10B55202C9EE900F03886 /* View */,
 				67D10B43202C933900F03886 /* AppDelegate.swift */,
 				67D10B45202C933900F03886 /* ViewController.swift */,
 				67D10B47202C933900F03886 /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				67D10B4F202C933900F03886 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		67D10B55202C9EE900F03886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
